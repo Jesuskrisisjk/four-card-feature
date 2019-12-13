@@ -25,10 +25,7 @@ font-size: 20px;
 }
 
 @@media only screen and (max-width:400px) {
-  body {
-    font-family: 'Poppins', sans-serif;
-    margin: auto;
-    background-color: #f4f4f4;
+
 
   p {
     color: #363232;
@@ -55,7 +52,7 @@ font-size: 20px;
   flex-wrap: wrap;
   background-color: #f4f4f4;
   box-shadow: 5px 5px 5px black;
-  width: 100%;
+  width: 80%;
 }
 
   .team-builder {
