@@ -114,7 +114,7 @@ font-size: 1.25rem;
   right: 1.875rem;
 }
 
-@@media screen and (max-width: 650px) {
+@@media screen and (max-width: 1200px) {
 
   .container {
     display: flex;
@@ -122,6 +122,17 @@ font-size: 1.25rem;
     background-color: #f4f4f4;
     box-shadow: 5px 5px 5px black;
     width: 100%;
+  }
+
+  .boxes {
+
+    width: 25rem;
+    height: 18.75rem;
+    background: white;
+    box-shadow: 0.125rem 0.3125rem 0.3125rem black;
+    border-top: 0.25em solid hsl(34, 97%, 64%);
+    border-radius: 2%;
+
   }
 
 }
