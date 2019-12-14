@@ -124,15 +124,4 @@ font-size: 1.25rem;
     width: 100%;
   }
 
-  .boxes {
-    
-    width: 25rem;
-    height: 18.75rem;
-    background: white;
-    box-shadow: 0.125rem 0.3125rem 0.3125rem black;
-    border-top: 0.25em solid hsl(34, 97%, 64%);
-    border-radius: 2%;
-
-  }
-
 }
