@@ -7,7 +7,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" media="screen and (max-device-width: 499px)" href="css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-device-width: 500px)"  href="css/styles.css">
 
   <title>Frontend Mentor | Four card feature section</title>
 
@@ -25,15 +26,13 @@
 </head>
 
 <body>
-<div class="Mobile">
-
   <header class='head'>
     <h1 class='lighter-head'>Reliable, efficient delivery
     </h1>
     <h1 class='bold-head'>Powered by Technology
     </h1>
-    <p class='artificial'>Our Artificial Intelligence powered tools use millions of project data points
-      to ensure that your project is successful</p>
+    <p class='artificial'>Our Artificial Intelligence powered tools <span class='use'>use millions of project data points
+      to ensure that your project is successful</span></p>
   </header>
    <div class='container box'>
       <div class="supervisor boxes">
@@ -46,19 +45,18 @@
         <p class='card-paragraph'>Scans our talent network to create the optimal team for your project</p>
         <img class='card-img' src="images/icon-team-builder.svg" alt="Team Builder Image" />
       </div>
-      <div class="calculator boxes">
-        <h2>Calculator</h2>
-        <p class='card-paragraph'>Uses data from past projects to provide better delivery estimates</p>
-        <img class='card-img' src="images/icon-calculator.svg" alt="Calculator Image" />
-      </div>
       <div class="karma boxes">
         <h2>Karma</h2>
         <p class='card-paragraph'>Regularly evaluates our talent to ensure quality</p>
         <img class='card-img' src="images/icon-karma.svg" alt="Karma Image" />
       </div>
-</div>
+      <div class="calculator boxes">
+        <h2>Calculator</h2>
+        <p class='card-paragraph'>Uses data from past projects to provide better delivery estimates</p>
+        <img class='card-img' src="images/icon-calculator.svg" alt="Calculator Image" />
+      </div>
+  </div>
 
-</div>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

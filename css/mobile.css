@@ -1,0 +1,100 @@
+/********Mobile Layout********/
+
+/********Tag Selectors********/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+  background-color: #f4f4f4;
+
+}
+
+p {
+  color: #363232;
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+
+h1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #363232;
+}
+
+h2 {
+  padding: 1.25rem;
+font-size: 1.25rem;
+}
+
+/********Class Selectors*******/
+
+/********Text*********/
+
+.lighter-head {
+  font-weight: 200;
+  padding-top: 3.125rem;
+}
+
+.bold-head {
+  font-weight: 600;
+  margin-bottom: 1.875rem;
+}
+
+.artificial {
+  font-size: 1rem;
+  text-align: center;
+  display: block;
+  margin: auto auto 2.5rem auto;
+  line-height: 1.5;
+}
+
+.use {
+  width:95%;
+  text-align: center;
+  display: block;
+  margin: auto auto 2.5rem auto;
+}
+
+.card-paragraph {
+  display: inline-block;
+  padding-left: 1.25rem;
+  width: 15.625rem;
+}
+
+/********cards********/
+
+.boxes {
+  width:95%;
+  margin: 1rem auto 0 auto;
+  height:16rem;
+  box-shadow: 0.125rem 0.3125rem 0.3125rem black;
+  background: white;
+  border-radius: 2%;
+}
+
+.team-builder {
+  border-top: 0.25em solid hsl(0, 78%, 62%);
+}
+
+.supervisor {;
+  border-top: 0.25em solid hsl(180, 62%, 55%);
+}
+
+
+.calculator {
+  border-top: 0.25em solid hsl(212, 86%, 64%);
+}
+
+
+.karma {
+  border-top: 0.25em solid hsl(34, 97%, 64%);
+}
+
+/***********images*********/
+.card-img {
+  float: right;
+  position: relative;
+  top:4rem;
+  right: 1.5rem;
+}
